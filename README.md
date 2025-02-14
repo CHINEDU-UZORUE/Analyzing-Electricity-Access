@@ -81,17 +81,6 @@ I encountered a couple of challenges in the analysis including:
 - [Our World in Data - Electricity Access](https://ourworldindata.org/energy-access)
 - [Our World in Data - Energy Problems](https://ourworldindata.org/worlds-energy-problem)
 
-## Usage
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/electricity-access-analysis.git
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd electricity-access-analysis
-   ```
-3. Run SQL queries in a database environment (e.g., MySQL, PostgreSQL, Snowflake).
-
 ## Future Work
 - Expanding the analysis to include recent years.
 - Deepening insights into renewable energy transitions.
