@@ -75,6 +75,11 @@ I encountered a couple of challenges in the analysis including:
 - **Duplicate Data**: Identified and removed duplicates using primary keys.
 - **Complex Joins**: Preprocessed data to ensure seamless merging.
 
+
+## Final Dashboard
+![dashboard](dashboard.png)
+
+
 ## Data Sources
 - [World Bank](https://data.worldbank.org/indicator/NY.GDP.PCAP.CD)
 - [Our World in Data - Energy](https://ourworldindata.org/energy-production-consumption)
