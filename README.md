@@ -23,6 +23,7 @@ The project uses six primary tables and one supplementary table:
 - **country_codes_and_continents**: Maps country names to their respective codes and continents.
 
 ## Research Questions
+The primary objective of this analysis was to explore the relationships between energy consumption, electricity generation, socio-economic factors, and access to electricity. The research was guided by the following key questions:
 1. What is the trend of electricity generation per continent from 2000 to 2022?
 2. How does electricity access correlate with electricity generation from different sources?
 3. How has electricity generation from renewables, nuclear, and fossil fuels evolved over time?
@@ -40,28 +41,33 @@ The project uses six primary tables and one supplementary table:
 
 ## Key Findings
 ### Electricity Generation Trends
-![Electricity Generation Trends](extracted_chart_5_1.png)
+![Electricity Generation Trends](genline.png)
 
 - **Electricity Generation Growth**: All continents experienced an increase in electricity generation, with Asia leading due to rapid industrialization in China and India.
 - **Electricity Access & Generation**: Countries with higher access to electricity tend to rely more on renewables.
+
+![Electricity Generation Types](gentype.png)
 - **Fossil Fuel Dominance**: Despite growth in renewables, fossil fuels remain the dominant source of electricity.
 
 ### Top Electricity Generators (2022)
-![Top Electricity Generators](extracted_chart_7_1.png)
+![Top Electricity Generators](genbar.png)
 
 - **Top 10 Electricity Generators (2022)**: China, the US, India, Russia, and Japan.
-- **GDP and Electricity Access**: A positive correlation exists between higher GDP per capita and increased electricity access from renewables.
 
 ### GDP Per Capita and Electricity Access
-![GDP vs Electricity Access](extracted_chart_11_1.png)
+![GDP vs Electricity Access](accessmap.png)
+- **GDP and Electricity Access**: A positive correlation exists between higher GDP per capita and increased electricity access from renewables.
+
 
 ## Recommendations
-1. **Sustainable Energy Policies**: Encourage a transition to renewables.
-2. **Infrastructure Development**: Improve electricity access in underserved regions.
+Based on the findings from the analysis, the following are recommendations:
+1. **Sustainable Energy Policies**: Countries need to encourage a transition to renewables.
+2. **Infrastructure Development**: Governments should aim to improve electricity access in underserved regions, especially in Sub-Saharan Africa.
 3. **Energy Efficiency Initiatives**: Promote policies to balance demand with environmental concerns.
 4. **Economic Growth Strategies**: Strengthen economies to enhance electricity production and access.
 
 ## Challenges & Solutions
+I encountered a couple of challenges in the analysis including:
 - **Missing Data**: Filled missing values with appropriate defaults.
 - **Data Format Issues**: Used dynamic SQL for data transformation.
 - **Duplicate Data**: Identified and removed duplicates using primary keys.
@@ -89,5 +95,5 @@ The project uses six primary tables and one supplementary table:
 - Deepening insights into renewable energy transitions.
 - Developing interactive dashboards for real-time analysis.
 
-For any inquiries or contributions, feel free to submit an issue or pull request. 🚀
+For any inquiries or contributions, feel free to submit an issue or pull request.
 
