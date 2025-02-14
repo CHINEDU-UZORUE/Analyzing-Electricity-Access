@@ -1,7 +1,7 @@
 # Global Trends in Electricity Access: Progress and Challenges (2000–2022)
 
 ## Overview
-This project explores global trends in electricity access from 2000 to 2022, analyzing regional disparities, key influencing factors, and the relationship between electricity availability and socio-economic development. The analysis utilizes SQL to process and visualize large datasets, providing insights into electricity generation, energy consumption, and economic indicators.
+This project explores global trends in electricity access from 2000 to 2022, analyzing regional disparities, key influencing factors, and the relationship between electricity availability and socio-economic development. The analysis utilizes SQL (Microsoft SSMS precisely) to pre-process and analyze datasets while using Microsoft Excel to visualize findings, providing insights into electricity generation, energy consumption, and economic indicators.
 
 ## Project Details
 - **Author**: Chinedu Uzorue
@@ -48,6 +48,7 @@ The primary objective of this analysis was to explore the relationships between 
 
 ![Electricity Generation Types](gentype.png)
 - **Fossil Fuel Dominance**: Despite growth in renewables, fossil fuels remain the dominant source of electricity.
+Over the years, there was a gradual increase in the share of electricity generated from renewable sources, with fossil fuels remaining dominant in many countries. Nuclear generation, however, showed little overall growth.
 
 ### Top Electricity Generators (2022)
 ![Top Electricity Generators](genbar.png)
@@ -55,8 +56,9 @@ The primary objective of this analysis was to explore the relationships between 
 - **Top 10 Electricity Generators (2022)**: China, the US, India, Russia, and Japan.
 
 ### GDP Per Capita and Electricity Access
-![GDP vs Electricity Access](accessmap.png)
+![GDP vs Electricity Access](gdpscatter.png)
 - **GDP and Electricity Access**: A positive correlation exists between higher GDP per capita and increased electricity access from renewables.
+Higher GDP per capita was found to be positively correlated with higher access to electricity, especially from renewables, indicating that wealthier nations are investing more in clean energy technologies.
 
 
 ## Recommendations
